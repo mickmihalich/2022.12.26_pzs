@@ -1,0 +1,24 @@
+.background {
+	height: 980px;
+	background-image: url(../images/back_intro.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-template-columns: minmax(192px, 1fr) 1fr 1fr;
+	grid-template-rows: 132px 1fr;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	/*background-image: url(../images/logo.svg);
+	background-position: center;
+	background-size: 192px 92px;
+	background-repeat: no-repeat;*/
+	
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}

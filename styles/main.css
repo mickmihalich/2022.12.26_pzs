@@ -12,6 +12,8 @@ body {
 	display: grid;
 	grid-template-columns: minmax(222px, 2fr) 3fr 2fr;
 	grid-template-rows: 132px 1fr;
+
+	width: 1000px;
 }
 
 .logo {
